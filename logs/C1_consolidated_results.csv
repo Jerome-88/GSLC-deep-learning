@@ -1,0 +1,8 @@
+Eksperimen,Arsitektur,Pretrained,Trainable Params,Epochs Converge,Train Time (s),Val Acc Terbaik,Test Accuracy,Macro F1
+B1 - From Scratch,ResNet-18,Tidak,11181642,15,211.3,0.349,0.3467,0.3254
+B2 - Feature Extraction,ResNet-18,Ya,5130,36,459.0,0.9329,0.92,0.9214
+B3 - Progressive Fine-Tuning,ResNet-18,Ya,8398858,28,224.1,0.953,0.9467,0.9471
+B4a - Tanpa Augmentasi,ResNet-18,Ya,8398858,28,224.1,0.953,0.9467,0.9471
+B4b - Dengan Augmentasi,ResNet-18,Ya,8398858,15,289.8,0.9597,0.9067,0.9063
+B5a - EfficientNet-B0,EfficientNet-B0,Ya,424970,50,454.2,0.9732,0.92,0.9211
+B5b - MobileNetV3-Small,MobileNetV3-Small,Ya,601098,7,52.2,0.906,0.8733,0.8718

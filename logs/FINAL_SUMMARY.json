@@ -1,0 +1,100 @@
+{
+  "seed": 42,
+  "dataset": "Oxford-IIIT Pet (10 kelas)",
+  "selected_classes": [
+    "Abyssinian",
+    "Bengal",
+    "Birman",
+    "Bombay",
+    "British Shorthair",
+    "American Bulldog",
+    "American Pit Bull Terrier",
+    "Basset Hound",
+    "Beagle",
+    "Boxer"
+  ],
+  "split": {
+    "train": "70%",
+    "val": "15%",
+    "test": "15%"
+  },
+  "results": [
+    {
+      "Eksperimen": "B1 - From Scratch",
+      "Arsitektur": "ResNet-18",
+      "Pretrained": "Tidak",
+      "Trainable Params": 11181642,
+      "Epochs Converge": 15,
+      "Train Time (s)": 211.3,
+      "Val Acc Terbaik": 0.349,
+      "Test Accuracy": 0.3467,
+      "Macro F1": 0.3254
+    },
+    {
+      "Eksperimen": "B2 - Feature Extraction",
+      "Arsitektur": "ResNet-18",
+      "Pretrained": "Ya",
+      "Trainable Params": 5130,
+      "Epochs Converge": 36,
+      "Train Time (s)": 459.0,
+      "Val Acc Terbaik": 0.9329,
+      "Test Accuracy": 0.92,
+      "Macro F1": 0.9214
+    },
+    {
+      "Eksperimen": "B3 - Progressive Fine-Tuning",
+      "Arsitektur": "ResNet-18",
+      "Pretrained": "Ya",
+      "Trainable Params": 8398858,
+      "Epochs Converge": 28,
+      "Train Time (s)": 224.1,
+      "Val Acc Terbaik": 0.953,
+      "Test Accuracy": 0.9467,
+      "Macro F1": 0.9471
+    },
+    {
+      "Eksperimen": "B4a - Tanpa Augmentasi",
+      "Arsitektur": "ResNet-18",
+      "Pretrained": "Ya",
+      "Trainable Params": 8398858,
+      "Epochs Converge": 28,
+      "Train Time (s)": 224.1,
+      "Val Acc Terbaik": 0.953,
+      "Test Accuracy": 0.9467,
+      "Macro F1": 0.9471
+    },
+    {
+      "Eksperimen": "B4b - Dengan Augmentasi",
+      "Arsitektur": "ResNet-18",
+      "Pretrained": "Ya",
+      "Trainable Params": 8398858,
+      "Epochs Converge": 15,
+      "Train Time (s)": 289.8,
+      "Val Acc Terbaik": 0.9597,
+      "Test Accuracy": 0.9067,
+      "Macro F1": 0.9063
+    },
+    {
+      "Eksperimen": "B5a - EfficientNet-B0",
+      "Arsitektur": "EfficientNet-B0",
+      "Pretrained": "Ya",
+      "Trainable Params": 424970,
+      "Epochs Converge": 50,
+      "Train Time (s)": 454.2,
+      "Val Acc Terbaik": 0.9732,
+      "Test Accuracy": 0.92,
+      "Macro F1": 0.9211
+    },
+    {
+      "Eksperimen": "B5b - MobileNetV3-Small",
+      "Arsitektur": "MobileNetV3-Small",
+      "Pretrained": "Ya",
+      "Trainable Params": 601098,
+      "Epochs Converge": 7,
+      "Train Time (s)": 52.2,
+      "Val Acc Terbaik": 0.906,
+      "Test Accuracy": 0.8733,
+      "Macro F1": 0.8718
+    }
+  ]
+}

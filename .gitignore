@@ -1,0 +1,22 @@
+# Dataset lokal (kapasitas besar, tidak di-push ke GitHub)
+data/
+*.tar.gz
+*.zip
+
+# Python & Jupyter cache
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Berkas sementara & checkpoint lokal
+gslc_temp.json
+*.tmp
+*.log
+.vscode/
+.idea/
+
+# Environment (Conda / venv)
+env/
+venv/
+.env/
