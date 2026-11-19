@@ -20,11 +20,3 @@ gslc_temp.json
 env/
 venv/
 .env/
-
-# Rahasia lokal dan file sementara editor
-.env
-.env.*
-!.env.example
-~$*
-.DS_Store
-Thumbs.db
