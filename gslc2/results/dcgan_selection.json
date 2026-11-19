@@ -1,0 +1,5 @@
+{
+  "epoch": 88,
+  "criterion": "last epoch",
+  "epochs_trained": 88
+}

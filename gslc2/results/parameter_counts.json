@@ -1,0 +1,10 @@
+{
+  "classifier": 218058,
+  "ae": 435536,
+  "sparse_ae": 435536,
+  "vae": 451984,
+  "frozen_decoder": 218128,
+  "gan": 1093137,
+  "dcgan": 898370,
+  "ddpm": 585537
+}

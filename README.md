@@ -1,3 +1,5 @@
+Untuk tugas Sesi 07 tentang AE, VAE, GAN, dan Diffusion pada Fashion-MNIST, lihat [gslc2/README.md](gslc2/README.md). Dokumentasi Sesi 05 tetap ada di bawah ini.
+
 # Studi Komparatif Paradigma Transfer Learning pada Klasifikasi Ras Hewan (Oxford-IIIT Pet)
 
 Repositori ini memuat implementasi eksperimen, evaluasi empiris, dan analisis komparatif paradigma Transfer Learning pada Convolutional Neural Networks (CNN) menggunakan dataset Oxford-IIIT Pet (subset 10 kelas). Proyek ini disusun untuk memenuhi tugas Sesi 05 Mata Kuliah Deep Learning: *Advanced CNNs & Transfer Learning*.

@@ -1,0 +1,5 @@
+{
+  "epoch": 84,
+  "criterion": "validation objective",
+  "epochs_trained": 88
+}

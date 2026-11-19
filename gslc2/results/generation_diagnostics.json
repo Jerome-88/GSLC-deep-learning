@@ -1,0 +1,71 @@
+{
+  "limitation": "Classifier-assigned labels are a proxy; class counts do not prove within-class mode coverage.",
+  "vae": {
+    "classifier_predicted_class_counts": [
+      606,
+      485,
+      653,
+      927,
+      761,
+      701,
+      590,
+      711,
+      999,
+      567
+    ],
+    "class_distribution_entropy_nats": 2.2796876430511475,
+    "max_possible_class_entropy_nats": 2.302585092994046,
+    "mean_classifier_confidence": 0.8423492312431335
+  },
+  "gan": {
+    "classifier_predicted_class_counts": [
+      788,
+      97,
+      882,
+      987,
+      617,
+      491,
+      876,
+      1110,
+      559,
+      593
+    ],
+    "class_distribution_entropy_nats": 2.205915689468384,
+    "max_possible_class_entropy_nats": 2.302585092994046,
+    "mean_classifier_confidence": 0.8789377808570862
+  },
+  "dcgan": {
+    "classifier_predicted_class_counts": [
+      671,
+      750,
+      685,
+      748,
+      645,
+      722,
+      670,
+      722,
+      711,
+      676
+    ],
+    "class_distribution_entropy_nats": 2.3014161586761475,
+    "max_possible_class_entropy_nats": 2.302585092994046,
+    "mean_classifier_confidence": 0.8862768411636353
+  },
+  "ddpm": {
+    "classifier_predicted_class_counts": [
+      996,
+      589,
+      1078,
+      625,
+      813,
+      552,
+      787,
+      450,
+      548,
+      562
+    ],
+    "class_distribution_entropy_nats": 2.2639341354370117,
+    "max_possible_class_entropy_nats": 2.302585092994046,
+    "mean_classifier_confidence": 0.876098096370697
+  }
+}
